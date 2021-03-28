@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+
+body{
+    background-image: linear-gradient(to right,#22f0ff59,#2f00ff67);
+    margin-top: 150px !important;
+    overflow: hidden;
+}
+
+
+.form-control:focus {
+    box-shadow: 10px 0px 0px 0px #ffffff !important;
+    border-color: #136696
+}

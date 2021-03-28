@@ -1,0 +1,125 @@
+@charset "ISO-8859-1";
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    background-color: black;
+    color:white;
+    height:100px;
+    align-items: center;
+    
+    }
+    
+    .heading{
+        padding:5px;
+        margin:5px;
+    }
+    .navigation{
+        display: flex;
+        
+        
+    }
+    .navigation ul{
+        display: flex;
+        padding:0px;
+        margin:5px;
+    }
+    
+    .navigation ul li {
+        text-decoration: none;
+        list-style: none;
+        padding:5px;
+        margin:5px;
+        scroll-behavior: smooth;
+    }
+    .navigation a{
+    color: white;
+    text-decoration: none;
+    }
+.center{
+    padding:0px;
+    margin:0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height:80vh;
+}
+  
+#log{
+        
+    border: 2px solid skyblue;
+    width: 640px;
+height: 220px;
+top: 30%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+border-radius: 4px;
+
+
+
+}
+.li p{
+    margin: 0;
+    padding: 5px 0px 18px 5px;
+    
+    background-color: rgba(135, 207, 235, 0.568);
+    font-weight: bold;
+
+   
+
+}
+ input[type=text],input[type=password] {
+     width: 50%;
+    font-weight: bold;
+    margin: 6px;
+    padding: 6px 90px 0px 19px;
+    display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+text-align: center;
+}
+
+.li label{
+   
+    font-weight: bold;
+    margin: 0;
+    padding: 0px 101px 0px 61px;
+}
+.btn{
+    margin: 0px;
+padding: 0px 0px 2px 263px;
+box-sizing: border-box;
+}
+button{
+    margin: 5px;
+    background-color: skyblue;
+    border: 2px solid skyblue;
+    font-size: 14px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+button :hover{
+    color: teal;
+}
+
+button :active{
+    color: red;
+    font-style: italic;
+}
+.ipt{
+    margin: 15px ;
+    padding: 0px 0px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+}

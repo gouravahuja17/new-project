@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+
+*{
+    padding:0px;
+    margin:0px;
+   
+    
+}
+
+.center{
+    padding:0px;
+    margin:0px;
+    width: 100vw;
+    height:80vh;
+}
+ 
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  font-weight: bold;
+  background-image: url(../images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  
+}  
+
+.container  {  
+  
+    width: 450px;
+    height: 675px;
+  background-color: rgba(0, 0, 0, 0.082);
+  color: white;
+  font-weight: bold;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 60px 20px;
+}  
+h1{
+    color:black;
+  
+    display: inline-block;
+    
+}
+  
+input[type=text], input[type=password], textarea ,input[type="number"] {  
+   
+  padding: 2px;  
+  margin: 0px 0 15px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus , input[type="number"]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: rgba(0, 0, 0, 0.616);  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  

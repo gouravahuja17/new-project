@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../images/cup.jpg");
+    background-size: cover;
+    
+    margin-top: 90px !important;
+}
+.center{
+    padding:0px;
+    margin:0px;
+    width: 100vw;
+    height:80vh;
+    background-color: rgba(0, 0, 0, 0.534);
+   
+   
+}
+
+#table {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 90%;
+   margin-left: 5%;
+    border-collapse: collapse;
+   
+   
+    
+}
+
+#table td,  th {
+    text-align: center;
+	font-size: 1.1em;
+    border: 4px solid black;
+  
+	padding: 3px 7px 2px 7px;
+}
+
+#table th {
+	font-size: 1.2em;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	background-color: #109191;
+	color: #ffffff;
+}
+
+#table tr td {
+    background-image:linear-gradient(to right,#b320767c,#f30b0b65);
+    background-color: rgba(255, 255, 255, 0.445);
+    z-index: -1;
+	color:#000000;
+}
+h1  {
+  
+    display: inline-block;
+    border-radius: 10%;
+    justify-content: center;
+    background-image:linear-gradient(to right,#4ecf80,#2c1cc0d0);
+    font-family:verdana;
+    font-size:160%;
+}
+.zoom {
+    display: inline-block;
+    transition: transform .2s;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: black;
+    
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.77); 
+  }
+  
